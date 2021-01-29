@@ -1,0 +1,6 @@
+Error type
+SyntaxError	- The program contains invalid code that cannot be understood.
+IndentationError -	The lines of the program are not properly indented.
+ValueError -	An invalid value is used – can occur if giving letters to int().
+NameError -	The program tries to use a variable that does not exist.
+TypeError -	An operation uses incorrect types – can occur if adding an integer to a string.

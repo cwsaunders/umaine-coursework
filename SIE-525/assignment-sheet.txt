@@ -3,8 +3,9 @@ Finished Assignments
 W1:
 Survey 1
 Survey 2
-Module A Report
+Module A Report (Copyright and Software Licenses)
 Badge A (Intentional Negligence and Torts)
 
 W2:
-Module B Report
+Module B Report (Datasets and Geographical Systems)
+Module C Report (Autonomous Vehicles)

@@ -9,3 +9,5 @@ Badge A (Intentional Negligence and Torts)
 W2:
 Module B Report (Datasets and Geographical Systems)
 Module C Report (Autonomous Vehicles and Third Party e-commerce)
+Badge 2 (Product Liability)
+Badge 3 (Vicarious Liability)

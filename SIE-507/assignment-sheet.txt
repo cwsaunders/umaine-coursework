@@ -10,3 +10,7 @@ Week 1 Programming Assignment (Python)
 W3:
 Activaties Week 2 (Python)
 Week 2 Programming Lab (Python)
+
+W4:
+Activaties Week 3 (Python)
+Week 3 Programming Lab (Python)

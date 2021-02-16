@@ -19,3 +19,4 @@ Module E Report (Intellectual Property Rights (film, web pages, books, etc.) and
 W4:
 Badge 4 (Acquiring Copyright Protection)
 Badge 5 (Copyright Enforcement and Defenses)
+Module F Report (Patent Law)

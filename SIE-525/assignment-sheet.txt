@@ -20,3 +20,4 @@ W4:
 Badge 4 (Acquiring Copyright Protection)
 Badge 5 (Copyright Enforcement and Defenses)
 Module F Report (Patent Law)
+Module G Report (Patent Law, Software Patents)

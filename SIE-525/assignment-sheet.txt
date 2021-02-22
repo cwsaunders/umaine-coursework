@@ -21,3 +21,6 @@ Badge 4 (Acquiring Copyright Protection)
 Badge 5 (Copyright Enforcement and Defenses)
 Module F Report (Patent Law)
 Module G Report (Patent Law, Design Patents, Software Patents)
+
+W5:
+Badge 6 (Trademarks)

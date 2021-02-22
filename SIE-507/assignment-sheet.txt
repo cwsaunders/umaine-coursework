@@ -14,3 +14,7 @@ Week 2 Programming Lab (Python)
 W4:
 Activaties Week 3 (Python)
 Week 3 Programming Lab (Python)
+
+W5:
+Activaties Week 4 (Python, Numpy)
+Week 3 Programming Lab (Python, Math)

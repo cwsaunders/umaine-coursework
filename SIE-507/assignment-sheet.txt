@@ -2,6 +2,7 @@ Finished Assignments
 
 
 W1:
+Syllabus Week
 
 W2:
 Activities Week 1 (Python)

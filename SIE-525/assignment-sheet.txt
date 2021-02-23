@@ -24,3 +24,4 @@ Module G Report (Patent Law, Design Patents, Software Patents)
 
 W5:
 Badge 6 (Trademarks)
+Module H Report (Trademark Strength)

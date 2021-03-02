@@ -22,4 +22,5 @@ Week 4 Programming Lab (Python, Math)
 
 W6:
 Activaties Week 5 (Python)
-Week 5 Programming Assignment (Python)
+Week 5 Programming Assignment 1 (Python)
+Week 5 Programming Assignment 2 (Python)

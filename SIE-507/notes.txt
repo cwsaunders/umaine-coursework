@@ -1,1 +1,5 @@
 https://umaine.edu/innovateformaine/home/how-it-works/application-process/
+
+Advanced String Formatting:
+
+https://learn.zybooks.com/zybook/UMAINESIE507NittelSpring2021/chapter/5/section/2

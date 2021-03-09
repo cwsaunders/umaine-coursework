@@ -27,4 +27,5 @@ Week 5 Programming Assignment 2 (Python)
 
 W7:
 Week 6 Programming Activaties (Python)
-Week 6 Programming Lab (Python)
+Week 6 Programming Lab 1 (Python)
+Week 6 Programming Lab 2 (Python)

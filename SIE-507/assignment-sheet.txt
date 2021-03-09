@@ -24,3 +24,7 @@ W6:
 Activaties Week 5 (Python)
 Week 5 Programming Assignment 1 (Python)
 Week 5 Programming Assignment 2 (Python)
+
+W7:
+Week 6 Programming Activaties (Python)
+Week 6 Programming Lab (Python)

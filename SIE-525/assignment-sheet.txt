@@ -43,3 +43,4 @@ Module M Report (Zippo Sliding Scale / Libel / Jurisdiction)
 W8:
 Badge 9 (Cyber Law)
 Module N Report (Contracts / E-commerce)
+Module O Report (Anti-Trust / E-commerce)

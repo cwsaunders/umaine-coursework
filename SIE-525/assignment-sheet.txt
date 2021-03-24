@@ -44,3 +44,9 @@ W8:
 Badge 9 (Cyber Law)
 Module N Report (Contracts / E-commerce)
 Module O Report (Anti-Trust / E-commerce)
+
+W9:
+Badge 10 (Contract Law)
+Badge 11 (Regulation of e-commerce)
+Module P Report (Freedom of Speech)
+Module Q Report (Corporate Speech)

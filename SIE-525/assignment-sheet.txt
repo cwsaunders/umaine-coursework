@@ -53,3 +53,4 @@ Module Q Report (Corporate Speech)
 
 W10:
 Badge 12 (Freedom of Speech)
+Badge 13 (Mass Torts)

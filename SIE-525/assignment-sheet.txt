@@ -55,3 +55,4 @@ W10:
 Badge 12 (Freedom of Speech)
 Badge 13 (Mass Torts)
 Badge 14 (E-Discovery)
+Badge 15 (Secured Transactions)

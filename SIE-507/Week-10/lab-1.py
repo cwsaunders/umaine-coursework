@@ -15,10 +15,12 @@ def shorten_space():
 
 def print_menu(usr_str):
    menu_op = ' '
-   # Complete print_menu() function
+   
    return menu_op, usr_str
 
 
 
 if __name__ == '__main__':
-    pass
+    input_str = input('Enter a sample text: ')
+    print('You entered:', input_str)
+    print_menu(input_str)

@@ -29,3 +29,11 @@ W7:
 Week 6 Programming Activaties (Python)
 Week 6 Programming Lab 1 (Python)
 Week 6 Programming Lab 2 (Python)
+
+W8:
+W7P Cruise Ship Cabin Chart Lab (Python - in private GitHub Repo)
+Week 8 Programming Assignment 1 (Python)
+
+W9:
+Week 8 Programming Assignment 2 (Python)
+Week 8 Programming Assignment 3 (Python)

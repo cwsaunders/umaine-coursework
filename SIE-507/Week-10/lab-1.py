@@ -1,11 +1,3 @@
-# Type all other functions here
-
-def print_menu(usr_str):
-   menu_op = ' '
-   # Complete print_menu() function
-   return menu_op, usr_str
-
-
 def get_num_of_non_WS_characters():
     pass
 
@@ -20,6 +12,13 @@ def replace_punctuation():
 
 def shorten_space():
     pass
+
+def print_menu(usr_str):
+   menu_op = ' '
+   # Complete print_menu() function
+   return menu_op, usr_str
+
+
 
 if __name__ == '__main__':
     # 

@@ -14,9 +14,21 @@ def shorten_space():
     pass
 
 def print_menu(usr_str):
-   menu_op = ' '
+    menu_op = ' '
    
-   return menu_op, usr_str
+    # Infinite loop until quit
+    while True:
+        print('MENU')
+        print('c - Number of non-whitespace characters')
+        print('w - Number of words')
+        print('f - Fix capitalization')
+        print('r - Replace punctuation')
+        print('s - Shorten spaces')
+        print('q - Quit')
+        print('')
+        menu_op = input('Choose an option: ')
+
+    return menu_op, usr_str
 
 
 

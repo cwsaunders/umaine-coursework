@@ -6,5 +6,20 @@ def print_menu(usr_str):
    return menu_op, usr_str
 
 
+def get_num_of_non_WS_characters():
+    pass
+
+def get_num_of_words():
+    pass
+
+def fix_capitalization():
+    pass
+
+def replace_punctuation():
+    pass
+
+def shorten_space():
+    pass
+
 if __name__ == '__main__':
-    # Complete main section of code
+    # 

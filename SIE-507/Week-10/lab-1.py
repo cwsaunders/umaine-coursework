@@ -6,7 +6,12 @@ def get_num_of_non_WS_characters(usr_str):
     print('Number of non-whitespace characters: ', cnt)
 
 def get_num_of_words(usr_str):
-    pass
+    cnt = 0
+    str_words = usr_str.split()
+    for i in range(len(str_words)):
+        cnt += 1
+    print('Number of words: ', cnt)
+
 
 def fix_capitalization(usr_str):
     pass

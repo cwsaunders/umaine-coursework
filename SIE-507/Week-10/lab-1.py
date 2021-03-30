@@ -1,5 +1,9 @@
 def get_num_of_non_WS_characters(usr_str):
-    pass
+    cnt = 0
+    for i in range(len(usr_str)):
+        if usr_str[i] != ' ':
+            cnt += 1
+    print('Number of non-whitespace characters: ', cnt)
 
 def get_num_of_words(usr_str):
     pass

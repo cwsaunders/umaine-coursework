@@ -27,6 +27,12 @@ def print_menu(usr_str):
         print('q - Quit')
         print('')
         menu_op = input('Choose an option: ')
+        if menu_op == 'q':
+            break
+        elif menu_op == 's':
+            shorten_space()
+        else: # if user enters incorrect input
+            continue
 
     return menu_op, usr_str
 

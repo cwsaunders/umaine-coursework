@@ -48,6 +48,8 @@ def shorten_space(usr_str):
         if usr_str[i] == ' ':
             if usr_str[i-1] == ' ':
                 final_str += ''
+            else:
+                final_str += ' '
         else:
             final_str += usr_str[i]
     return final_str

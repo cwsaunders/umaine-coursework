@@ -1,16 +1,16 @@
-def get_num_of_non_WS_characters():
+def get_num_of_non_WS_characters(usr_str):
     pass
 
-def get_num_of_words():
+def get_num_of_words(usr_str):
     pass
 
-def fix_capitalization():
+def fix_capitalization(usr_str):
     pass
 
-def replace_punctuation():
+def replace_punctuation(usr_str):
     pass
 
-def shorten_space():
+def shorten_space(usr_str):
     pass
 
 def print_menu(usr_str):
@@ -30,15 +30,15 @@ def print_menu(usr_str):
         if menu_op == 'q':
             break
         elif menu_op == 's':
-            shorten_space()
+            shorten_space(usr_str)
         elif menu_op == 'r':
-            replace_punctuation()
+            replace_punctuation(usr_str)
         elif menu_op == 'f':
-            fix_capitalization()
+            fix_capitalization(usr_str)
         elif menu_op == 'w':
-            get_num_of_words()
+            get_num_of_words(usr_str)
         elif menu_op == 'c':
-            get_num_of_non_WS_characters()
+            get_num_of_non_WS_characters(usr_str)
         else: # if user enters incorrect input
             continue
 

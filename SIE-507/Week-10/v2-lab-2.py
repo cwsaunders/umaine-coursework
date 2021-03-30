@@ -1,3 +1,5 @@
+import re
+
 def get_num_of_non_WS_characters(usr_str):
     cnt = 0
     for i in range(len(usr_str)):
@@ -16,15 +18,19 @@ def get_num_of_words(usr_str):
 def fix_capitalization(usr_str):
     cnt = 0
     final_str = ''
-    usr_list = usr_str.split('. ')
+    usr_list = re.split(' .| !',usr_str) #usr_str.split('. ').split('! ')
+    print(usr_list)
     for i in range(len(usr_list)):
         cnt += 1
         final_str += ''.join(usr_list[i].capitalize())
         if i != len(usr_list) - 1:
-            final_str += '. '
+            if usr_list[i] == '.':
+                final_str += '. '
+            elif usr_list[i] == '!':
+                final_str += '! '
     return final_str, cnt
-    #print('Number of letters capitalized:', cnt)
-    #print('Edited text:', final_str)
+    print('Number of letters capitalized:', cnt)
+    print('Edited text:', final_str)
 
 
 

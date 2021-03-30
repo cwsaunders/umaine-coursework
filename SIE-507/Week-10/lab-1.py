@@ -14,7 +14,21 @@ def get_num_of_words(usr_str):
 
 
 def fix_capitalization(usr_str):
-    pass
+    cnt = 0
+    #print('. '.join(i.capitalize() for i in usr_str.split('. ')))
+    final_str = ''
+    usr_list = usr_str.split('. ')
+    for i in range(len(usr_list)):
+        cnt += 1
+        final_str += ''.join(usr_list[i].capitalize())
+        if i != len(usr_list) - 1:
+            final_str += '. '
+
+
+    print('Number of letters capitalized:', cnt)
+    print('Edited text:', final_str)
+
+
 
 def replace_punctuation(usr_str):
     pass

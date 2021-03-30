@@ -43,7 +43,15 @@ def replace_punctuation(usr_str, exclamation_count, semicolon_count):
     print('Edited text:', final_str)
 
 def shorten_space(usr_str):
-    pass
+    final_str = ''
+    for i in range(len(usr_str)):
+        if usr_str[i] == ' ':
+            if usr_str[i-1] == ' ':
+                final_str += ''
+        else:
+            final_str += usr_str[i]
+    return final_str
+
 
 def print_menu(usr_str):
     menu_op = ' '
@@ -62,7 +70,7 @@ def print_menu(usr_str):
         if menu_op == 'q':
             break
         elif menu_op == 's':
-            shorten_space(usr_str)
+            print('Edited text:', shorten_space(usr_str))
         elif menu_op == 'r':
             exclamation = 0
             semicolon = 0

@@ -3,14 +3,14 @@ def get_num_of_non_WS_characters(usr_str):
     for i in range(len(usr_str)):
         if usr_str[i] != ' ':
             cnt += 1
-    print('Number of non-whitespace characters: ', cnt)
+    return cnt
 
 def get_num_of_words(usr_str):
     cnt = 0
     str_words = usr_str.split()
     for i in range(len(str_words)):
         cnt += 1
-    print('Number of words: ', cnt)
+    return cnt
 
 
 def fix_capitalization(usr_str):
@@ -22,8 +22,9 @@ def fix_capitalization(usr_str):
         final_str += ''.join(usr_list[i].capitalize())
         if i != len(usr_list) - 1:
             final_str += '. '
-    print('Number of letters capitalized:', cnt)
-    print('Edited text:', final_str)
+    return final_str, cnt
+    #print('Number of letters capitalized:', cnt)
+    #print('Edited text:', final_str)
 
 
 
@@ -36,11 +37,7 @@ def replace_punctuation(usr_str, exclamation_count, semicolon_count):
             final_str += '.'
         else:
             final_str += usr_str[i]
-    
-    print('Punctuation replaced')
-    print('exclamation_count:', exclamation_count)
-    print('semicolon_count:', semicolon_count)
-    print('Edited text:', final_str)
+    return final_str
 
 def shorten_space(usr_str):
     final_str = ''
@@ -73,6 +70,7 @@ def print_menu(usr_str):
             break
         elif menu_op == 's':
             print('Edited text:', shorten_space(usr_str))
+            print('')
         elif menu_op == 'r':
             exclamation = 0
             semicolon = 0
@@ -81,13 +79,17 @@ def print_menu(usr_str):
                     semicolon += 1
                 if usr_str[i] == '!':
                     exclamation += 1
-            replace_punctuation(usr_str,exclamation,semicolon)
+                print('Punctuation replaced')
+                print('exclamation_count:', exclamation)
+                print('semicolon_count:', semicolon)
+                print('Edited text:', replace_punctuation(usr_str, exclamation, semicolon))
         elif menu_op == 'f':
             fix_capitalization(usr_str)
         elif menu_op == 'w':
-            get_num_of_words(usr_str)
+            print('Number of words:', get_num_of_words(usr_str))
+            print('')
         elif menu_op == 'c':
-            get_num_of_non_WS_characters(usr_str)
+            print(get_num_of_non_WS_characters(usr_str))
         else: # if user enters incorrect input
             continue
 

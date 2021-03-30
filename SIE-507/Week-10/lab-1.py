@@ -15,7 +15,6 @@ def get_num_of_words(usr_str):
 
 def fix_capitalization(usr_str):
     cnt = 0
-    #print('. '.join(i.capitalize() for i in usr_str.split('. ')))
     final_str = ''
     usr_list = usr_str.split('. ')
     for i in range(len(usr_list)):

@@ -28,7 +28,19 @@ def fix_capitalization(usr_str):
 
 
 def replace_punctuation(usr_str, exclamation_count, semicolon_count):
-    pass
+    final_str = ''
+    for i in range(len(usr_str)):
+        if usr_str[i] == ';':
+            final_str += ','
+        elif usr_str[i] == '!':
+            final_str += '.'
+        else:
+            final_str += usr_str[i]
+    
+    print('Punctuation replaced')
+    print('exclamation_count:', exclamation_count)
+    print('semicolon_count:', semicolon_count)
+    print('Edited text:', final_str)
 
 def shorten_space(usr_str):
     pass

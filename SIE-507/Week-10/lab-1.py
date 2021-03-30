@@ -31,6 +31,14 @@ def print_menu(usr_str):
             break
         elif menu_op == 's':
             shorten_space()
+        elif menu_op == 'r':
+            replace_punctuation()
+        elif menu_op == 'f':
+            fix_capitalization()
+        elif menu_op == 'w':
+            get_num_of_words()
+        elif menu_op == 'c':
+            get_num_of_non_WS_characters()
         else: # if user enters incorrect input
             continue
 

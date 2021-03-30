@@ -22,14 +22,12 @@ def fix_capitalization(usr_str):
         final_str += ''.join(usr_list[i].capitalize())
         if i != len(usr_list) - 1:
             final_str += '. '
-
-
     print('Number of letters capitalized:', cnt)
     print('Edited text:', final_str)
 
 
 
-def replace_punctuation(usr_str):
+def replace_punctuation(usr_str, exclamation_count, semicolon_count):
     pass
 
 def shorten_space(usr_str):
@@ -54,7 +52,14 @@ def print_menu(usr_str):
         elif menu_op == 's':
             shorten_space(usr_str)
         elif menu_op == 'r':
-            replace_punctuation(usr_str)
+            exclamation = 0
+            semicolon = 0
+            for i in range(len(usr_str)):
+                if usr_str[i] == ';':
+                    semicolon += 1
+                if usr_str[i] == '!':
+                    exclamation += 1
+            replace_punctuation(usr_str,exclamation,semicolon)
         elif menu_op == 'f':
             fix_capitalization(usr_str)
         elif menu_op == 'w':

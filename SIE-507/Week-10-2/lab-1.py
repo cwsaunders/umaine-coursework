@@ -1,3 +1,5 @@
+# Highway system lab
+
 highway_number = int(input())
 
 if highway_number == 0:
@@ -20,3 +22,5 @@ elif highway_number > 100:
             print('I-{} is auxiliary, serving I-{}, going east/west.'.format(highway_number,str_hw_removed_digit))
         else:
             print('I-{} is auxiliary, serving I-{}, going north/south.'.format(highway_number,str_hw_removed_digit))
+    else:
+        print('1000 is not a valid interstate highway number.')

@@ -37,3 +37,7 @@ Week 8 Programming Assignment 1 (Python)
 W9:
 Week 8 Programming Assignment 2 (Python)
 Week 8 Programming Assignment 3 (Python)
+
+W10:
+Week 9 Programming Activaties
+Week 9 Programming Lab

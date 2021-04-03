@@ -13,6 +13,6 @@ elif highway_number > 100:
     str_hw = str(highway_number)
     str_hw_removed_digit = str_hw[1] + str_hw[2]
     if (int(str_hw_removed_digit)%2) == 0:
-        print('I-{highway_number} is auxiliary, serving I-{str_hw_removed_digit}, going east/west.'.format(highway_number,str_hw_removed_digit))
+        print('I-{} is auxiliary, serving I-{}, going east/west.'.format(highway_number,str_hw_removed_digit))
     else:
-        print('I-{highway_number} is auxiliary, serving I-{str_hw_removed_digit}, going east/west.'.format(highway_number,str_hw_removed_digit))
+        print('I-{} is auxiliary, serving I-{}, going north/south.'.format(highway_number,str_hw_removed_digit))

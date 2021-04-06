@@ -41,3 +41,4 @@ Week 8 Programming Assignment 3 (Python)
 W10:
 Week 9 Programming Activaties
 Week 9 Programming Lab
+Midterm Project -- Extension of HW7 Project

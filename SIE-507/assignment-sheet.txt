@@ -46,3 +46,4 @@ Midterm Project -- Extension of HW7 Project
 W11:
 Week 10 Programming Activaties
 Week 10 Lab 1
+Final Project Description

@@ -66,3 +66,6 @@ W11:
 Module U Report (Artificial Intelligence)
 Module V Report (FOIA and Access to Federal Government Public Records)
 Module W Report (Cryptocurrency and E-Commerce)
+
+W12:
+Module X Report (Databases / Copyright)
